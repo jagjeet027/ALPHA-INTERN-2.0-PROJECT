@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(240, 242, 242);
+
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color:rgb(233, 233, 233);
+    z-index: 1;
+}
+.header .img-myntra{
+    width: 120px;
+    height: 80px;
+    padding-top: 10px;
+    position: absolute;
+    left: 40px;
+    
+}
+.img-myntra img{
+   width: 100%;
+    margin-top: 40px;
+}
+.navigation{
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    left: 8%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    position: relative;
+    margin: 0 10px;
+    display: block;
+  }
+  
+  .sub-menu {
+    display: none;
+    position: absolute;
+    left: -150%;
+    top: 67%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgb(14, 13, 13);
+    padding: 10px;
+    z-index: 1;
+  }
+  .sub-category{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sub-category ul{
+    list-style: none;
+  }
+  .sub-category ul h3{
+    font-size: 17px;
+    color: #161515;
+  }
+  .nav-item:hover .sub-menu {
+    display: flex;
+  }
+  
+span{
+    font-size: 12px;
+    color: black;
+    padding:10px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.search .input-field {
+    margin-top: 30px;
+    left: 55%;
+    position: absolute;
+
+  }
+  
+  .search input[type="search"] {
+    height: 3rem;
+    padding-left: 2rem;
+    width: 350px;
+    background: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .search .label-icon {
+    position: absolute;
+    left: 20rem;
+    color: #9e9e9e;
+    padding-top: 15px;
+  }
+  
+  .search .input-field > .material-icons {
+    position: absolute;
+    right: 0.8rem;
+    color: #9e9e9e;
+    cursor: pointer;
+  }
+
+  .navigation2{
+    width: 15%;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.icon-container{
+    width: 80px;
+    text-align: center;
+}
+.icon-container h3{
+    line-height: 0.5px;
+    text-align: center;
+    font-size: 13px;
+}
+.material-symbols-outlined {
+    font-size: 30px;
+
+}
+.carousel-item  img {
+    height: 400px;
+    object-fit: fill;
+}
+.carousel{
+    margin-top: 40px;
+}
+#lakme{
+    margin-top: 20px;
+    width:  100%;
+    height: 450px;
+    padding-left: 40px;
+}
+.flat-container{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.flat-container .imggg{
+    width: 50%;
+}
+.imggg img{
+    width: 100%;
+    height: auto;
+}
+.model-class{
+    width: 100%;
+    height: 20%;
+    margin:60px 0px;
+    letter-spacing: 3px;
+    border-bottom: none;
+}
+.model{
+   font-size: 40px;
+   opacity: 0.7;
+   border-bottom: none;
+}
+.clothes-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(240, 242, 242);
+}
+.clothes-container .clothes-box{
+    width: 16.5%;
+    height: 300px;
+    position: relative;
+}
+.clothes-container .clothes-box img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.clothes-box p{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+.clothes-box h2{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+.clothes-box h1{
+    font-size: 25px;
+    color: red;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 79%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+#carouselExampleIndicators{
+    position: relative;
+    background-color: rgb(193, 32, 32);
+    height: 450px;
+}
+#carouselExampleIndicators .carousel-indicators{
+    position: absolute;
+    top: 93%;
+}
+.complete-container{
+    width: 100%;
+    height: 2300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.complete-container .category-container{
+    width: 15%;
+    height: 350px;
+    position: relative;
+    background-color: #ff6f00;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.category-container img{
+    width: 94%;
+    height: 95%;
+    object-fit: cover;
+
+
+}
+.wearing-clothes-container{
+    background-color: rgb(255, 140, 0);
+    width: 95%;
+    height: 90px;
+    margin-left: 6px;
+    position: absolute;
+    top: 70%;
+}
+.wearing-clothes-container h2{
+    font-size: 18px;
+    text-align: center;
+}
+.wearing-clothes-container p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 0.8;
+    font-weight: 700;
+}
+.wearing-clothes-container h1{
+    font-size: 18px;
+    text-align: center;
+    line-height: 0.8;
+    font-weight: 500;
+}
+
+.txt-container{
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.txt-container .row-column-container{
+    width: 80%;
+    height: 700px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.box{
+    width: 250px;
+    height: 350px;
+}
+.box h1{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px;
+}
+.box P{
+    line-height: 0.5;
+    padding-left: 15px;
+}
+.box1{
+    width: 330px;
+}
+.box1 img{
+    width: 150px;
+    margin-right: -10px;
+    margin-top: -20px;
+}
+.box1 #imgs{
+    width: 150px;
+}
+#box2{
+    width: 300px;
+    height: 300px;
+}
+ .social-icons {
+    color: #aaa;
+    list-style-type: none;
+    padding-left: 15px;
+    display: flex;
+  }
+  
+  .social-icons li i {
+    margin-right: 5px;
+  }
+
+  
+  .social-icons li {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .social-icons a {
+    color: #625e5e;
+    font-size: 1.9rem;
+  }
+  
+  .social-icons li a:hover {
+    color: #0004ff;
+    text-decoration: none;
+  }
+
+  .clothes-box h2{
+    font-size: 20px;
+    color: #000;
+    padding-top: -10px;
+  }
+  .emmet{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imagination{
+    margin-top: 20px;
+    width: 70px;
+    height: 50px;
+  }
+  .imagination .iconic{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+  }
+  .spanish{
+    margin-top: -40px;
+    margin-left: 80px;
+    width: 500px;
+    height: 100%;
+   
+  }
+   #spane{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: none;
+
+  }
+
+  .emmet1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imagination1{
+    margin-top: 80px;
+    width: 70px;
+    height: 50px;
+  }
+  .imagination1 .iconic1{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+  }
+  .spanish1{
+    margin-top: -50px;
+    margin-left: 80px;
+    width: 400px;
+    height: 40px;
+   
+  }
+  #spane1{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    text-align: start;
+    border-bottom: none;
+  }
+  .box3{
+    width: 1200px;
+    margin-top: 20px;
+  }
+.texture{
+    margin: 50px 0px;
+    width: 100%;
+    height: 150px;
+}
+.texture p{
+    font-size: 15px;
+    line-height: 1.4;
+
+}
+.te-fa{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+}
+.te-fa .bo-fa{
+    width: 40%;
+    height: 100%;
+    padding: 140px;
+}
+.bo-fa h1{
+    font-size: 10px;
+    text-align: left;
+
+}
+.text-exp{
+    width: 100%;
+    height: 100vh;
+}
+ 
+.text111{
+    height: 250px;
+    display: flex;
+    justify-content:cover;
+    align-items: start;
+    position: relative;
+}
+.text11{
+    padding-left: 180px;
+    width: 80%;
+    text-align: start;
+}
+.text11 h1{
+    font-size: 20px;
+    color: #000;
+    padding: 15px 0px;
+}
+.text11 p{
+    line-height: 0.5;
+    color: #aaa;
+}
+.text12{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: #000;
+    text-align: end;
+    text-align: end;
+}
+.text112{
+    width: 100%;
+    height: 800px;
+}
+
+.txt13 ,.txt14{
+    width: 100%;
+    padding: 0% 10%;
+
+}
+.txt14 h1,
+.txt13 h1{
+    font-size: 15px;
+    color: #4e4a4a;
+
+}
+
+.txt14 p,
+.txt13 p{
+    font-size: 15px;
+    color: #847c7c;
+
+}
+.spannnnn{
+    color: #595757;
+}
+.spannnnn:hover{
+    border-bottom: none;
+}
+.txt14 ul li{
+    color: #868282;
+}
+
